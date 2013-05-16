@@ -1,0 +1,34 @@
+{
+  "name": "jdb-gfk",
+  "description": "Generic foreign keys for JugglingDB",
+  "version": "0.0.0",
+  "author": "dgsan",
+  "contributors": [
+    { "name": "dgsan" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dgsan/jdb-gfk"
+  },
+  "main": "jdb-gfk.js",
+  "scripts": {
+    "test": "node /test/test.js"
+  },
+  "keywords": [
+    "generic foreign key",
+    "generic foreign keys",
+    "jugglingdb"
+  ],
+  "engines": [
+    "node >= 0.10.x"
+  ],
+  "dependencies": {
+    "jugglingdb": "0.2.x",
+    "async": "0.2.x"
+  },
+  "devDependencies": {
+    "mocha": "1.9.x",
+    "jugglingdb-mysql": "0.0.x"
+  },
+  "license": "MIT"
+}
