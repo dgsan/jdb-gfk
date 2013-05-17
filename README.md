@@ -15,8 +15,7 @@ var Schema = require('jdb-gfk').Schema;
 
 Once required, generic relations need to be initialized on `Schema` instances by calling `registryInit()`.
 ```javascript
-var jdb = new Schema('memory');
-jdb.registryInit();
+var jdb = (new Schema('memory')).registryInit();
 ```
 This will give your `Schema` instance some additional methods and provide the `SchemaEntity` model.
 
