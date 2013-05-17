@@ -197,6 +197,7 @@ function prepareSchema(schema, patchAdapter){
 
 jugglingdb.Schema.prototype.registryInit = function () {
     prepareSchema(this, patchAdapter);
+    return this;
 };
 
 module.exports = jugglingdb;

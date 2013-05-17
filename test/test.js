@@ -2,8 +2,7 @@ var Schema = require('../jdb-gfk.js').Schema;
 
 /* @TODO write actual unit tests. */
 
-var jdb = new Schema('memory');
-jdb.registryInit();
+var jdb = (new Schema('memory')).registryInit();
 
 jdb.on('jdb-gfk:models_registered', function(){
     console.log(User.schemaEntityId);
